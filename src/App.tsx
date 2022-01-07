@@ -1,7 +1,13 @@
 import React from 'react'
 
 import { Header } from 'src/shared'
+import { HomePage } from 'src/Home'
 
 export const App = () => {
-  return <Header />
+  return (
+    <>
+      <Header />
+      <HomePage />
+    </>
+  )
 }
